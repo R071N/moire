@@ -7,7 +7,7 @@
   </div>
   <aside class="filter" v-else>
     <form class="filter__form form" action="#" method="get" @submit.prevent="setFilters">
-      <fieldset class="form__block">
+      <fieldset class="form__block form__block1">
         <legend class="form__legend">Цена</legend>
         <label class="form__label form__label--price">
           <input class="form__input" type="text" name="min-price" v-model.number="currentPriceFrom">

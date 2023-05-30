@@ -192,6 +192,7 @@ export default {
 </script>
 
 <style>
+@import '@/assets/global.css';
 .colors__value {
   border: 1px solid gray;
 }
